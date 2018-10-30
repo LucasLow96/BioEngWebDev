@@ -1,0 +1,14 @@
+/* For elements */
+body {
+    /* display: block; */ /*Doesn't do anything for now*/
+    margin: 80px;
+    text-align: center;
+}
+
+/* Call a class, rather than just an element needs the . */
+.loginbutton {
+  background-color: #ffcc00; /* Gold */
+  border: solid;
+  color: black;
+  padding: 15px 32px 10px 12px; /* Specify padding in clockwise from top */
+}

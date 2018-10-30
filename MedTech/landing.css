@@ -12,3 +12,11 @@ body {
   color: black;
   padding: 15px 32px 10px 12px; /* Specify padding in clockwise from top */
 }
+
+#header {
+  color: blue;
+  /*
+  This is an id. You can use it with h1 in html like this:
+  <h1 id = "header"> xxx </h1>
+  */
+}

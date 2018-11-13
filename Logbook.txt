@@ -1,0 +1,48 @@
+2018_10_23
+Resources: w3schools, bootstrap
+Open file and save as "name".html, suffix is important
+Type "html" + tab for backbone
+
+2018_10_30
+github upload commands:
+>> cd to folder
+>> git status TO check updates made
+>> git add . TO add changed files into a block
+>> git status TO check git add . is done
+>> git commit -m "Changes" TO add block to chain, add a message of changes made
+>> git push origin master TO Finalize
+
+2018_11_6
+Bootstrap - grid system
+Added patient cards into a grid system
+
+In a webpage:
+ctrl + shift + i >> inspector allows preview of website on different mobile screens
+Javascript
+ctrl + shift + i >> console to bring up javascript command line
+The html table of organization: https://www.w3schools.com/js/js_htmldom.asp
+
+2018_11_13
+Downloaded Node.js, LTS version default settings.
+https://nodejs.org/en/download/
+In command prompt, use "node" go in and out of using it to write java (I think)
+"npm install cat-me" >> write "cat-me.js" file >> "node cat-me.js" in command prompt
+
+[SOMETHING ABOUT npm init in commamd prompt]
+npm init [Some options have appeared, I enter keyed through them]
+npm install express --save
+This creates node-modules folder and some .json files.
+
+Make new folders in main MedTrack folders:
+views >> Put .html files in here
+public\stylesheets >> Put .css files in here
+
+Change .html extensions to .ejs, they have the same syntax. We don't have a html renderer so can;t just use .html in our .js file
+npm install ejs --save To use .html files as .ejs files in the .js file
+npm install path --save TO use .css files in the .js file
+
+Create new folder:
+view\partials >> Create header.ejs and footer.ejs to be used for all our webpages, so no need to copy the same code to all .ejs files.
+
+Added references such as /login, /register to buttons across the .ejs files.
+

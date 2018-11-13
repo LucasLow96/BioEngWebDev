@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<% include partials/header %> <!-- Link to include the code in that file rather tahn copy all code here>
+
+  <body> <!-- Takes body from the landing.css file as that has a body element -->
+
+  <!-- Navbar copied from bootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">MedTrack</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/register"> Register </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login"> Login </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- Navbar copied from bootstrap END -->
+
+  <div> <!-- Ca section to apply different stylings groups -->
+    <h1>HELLO WORLD</h1> <!-- h for heading, 123... for size -->
+    <h1>Welcome to MedTrack</h1>
+    <!--<a href="https://www.google.co.uk/">Register</a> --> <!-- a is an anchor tab-->
+    <!--<a href="#">Login</a> -->
+    <!-- Below buttons from getbootstrap, this inlcudes their class btn btn-danger -->
+    <!--<button type="button" class="btn btn-danger">Register</button> -->
+    <!--<button type="button" class="btn btn-danger">Login</button> -->
+    <!--<a type="button" class="btn btn-danger">Test1</a> -->
+    <!-- <a href="#" class="loginbutton">Login</a> --> <!-- If using your own class to style the button, the "loginbutton class will be in the .css file" -->
+    <a href="https://www.google.co.uk/" class="btn btn-danger">Register</a>
+    <!--<br> --> <!-- Essentially break line, here would put buttons on different lines -->
+    <a href="/patients" class="btn btn-danger">Login</a>
+  </div>
+
+<% include partials/footer %>
